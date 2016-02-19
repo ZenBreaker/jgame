@@ -16,11 +16,11 @@ public class TGLevelOneView extends GContainer {
 		add(l1pa);
 		
 		ma.setAnchorTopLeft();
-		ma.setLocation(0, 0);
+		ma.setLocation(100, 0);
 		add(ma);
 		
 		ia.setAnchorTopLeft();
-		ia.setLocation(0, 600);
+		ia.setLocation(100, 0);
 		add(ia);
 	}
 }

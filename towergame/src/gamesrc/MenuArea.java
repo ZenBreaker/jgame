@@ -7,12 +7,12 @@ import jgame.GContainer;
 import jgame.GSprite;
 import jgame.ImageCache;
 
-public class l1PlayArea extends GContainer {
+public class MenuArea extends GContainer {
 	
-	public l1PlayArea(){
+	public MenuArea() {
 		setSize(800, 600);
 		this.setBackgroundColor(Color.black);
-		BufferedImage bgi = ImageCache.forClass(TowerGame.class).get("imgres.jpg");
+		BufferedImage bgi = ImageCache.forClass(TowerGame.class).get("images.png");
 		GSprite gs = new GSprite(bgi);
 		setBackgroundSprite(gs);
 	}

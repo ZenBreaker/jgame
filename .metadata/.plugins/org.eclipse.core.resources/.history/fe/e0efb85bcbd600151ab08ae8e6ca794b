@@ -1,6 +1,5 @@
 package gamesrc;
 
-import java.awt.Color;
 import java.awt.image.BufferedImage;
 
 import jgame.GContainer;
@@ -11,9 +10,8 @@ public class l1PlayArea extends GContainer {
 	
 	public l1PlayArea(){
 		setSize(800, 600);
-		this.setBackgroundColor(Color.black);
-		BufferedImage bgi = ImageCache.forClass(TowerGame.class).get("imgres.jpg");
-		GSprite gs = new GSprite(bgi);
+		BufferedImage bg = ImageCache.forClass(TowerGame.class).get("imgres.jpg");
+		GSprite gs = new GSprite(bg);
 		setBackgroundSprite(gs);
 	}
 

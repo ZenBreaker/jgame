@@ -3,4 +3,5 @@
 <fullyQualifiedTypeName name="jgame.SoundManager"/>
 <fullyQualifiedTypeName name="jgame.ImageCache"/>
 <fullyQualifiedTypeName name="java.awt.image.BufferedImage"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
 </qualifiedTypeNameHistroy>

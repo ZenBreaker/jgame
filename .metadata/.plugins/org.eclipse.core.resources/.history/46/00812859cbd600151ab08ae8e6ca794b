@@ -1,0 +1,11 @@
+package gamesrc;
+
+import jgame.GContainer;
+
+public class InfoArea extends GContainer {
+	
+	public InfoArea() {
+		
+	}
+
+}
