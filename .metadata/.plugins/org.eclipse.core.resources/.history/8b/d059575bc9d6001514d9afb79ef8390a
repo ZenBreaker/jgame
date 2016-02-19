@@ -1,0 +1,10 @@
+package gamesrc;
+
+import jgame.GContainer;
+
+public class l1PlayArea extends GContainer {
+	public l1PlayArea(){
+		
+	}
+
+}

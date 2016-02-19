@@ -8,8 +8,5 @@ public class TGLevelOneView extends GContainer {
 
 	public TGLevelOneView(){
 		setSize(900,700);
-		l1pa.setAnchorTopLeft();
-		l1pa.setLocation(100, 0);
-		add(l1pa);
 	}
 }

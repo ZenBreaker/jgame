@@ -4,16 +4,12 @@ import java.awt.Color;
 
 import jgame.GRootContainer;
 import jgame.Game;
-import jgame.ImageCache;
-import jgame.SoundManager;
 
 public class TowerGame extends Game {
 
 	public static void main(String[] args) {
-		ImageCache.create(TowerGame.class, "/rcs/");
-		SoundManager.create(TowerGame.class, "/rcs/");
-		TowerGame tg = new TowerGame();
-		tg.startGame();
+		// TODO Auto-generated method stub
+
 	}
 	
 	public TowerGame(){

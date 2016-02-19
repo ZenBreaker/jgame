@@ -4,12 +4,9 @@ import jgame.GContainer;
 
 public class TGLevelOneView extends GContainer {
 	
-	private l1PlayArea l1pa = new l1PlayArea();
+	private l1PlayArea l1pa = new L1PlayArea();
 
 	public TGLevelOneView(){
 		setSize(900,700);
-		l1pa.setAnchorTopLeft();
-		l1pa.setLocation(100, 0);
-		add(l1pa);
 	}
 }
