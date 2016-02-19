@@ -12,7 +12,7 @@ public class InfoArea extends GContainer {
 	public InfoArea() {
 		setSize(800, 600);
 		this.setBackgroundColor(Color.black);
-		BufferedImage bgi = ImageCache.forClass(TowerGame.class).get("thing.jpg");
+		BufferedImage bgi = ImageCache.forClass(TowerGame.class).get("instructions.jpg");
 		GSprite gs = new GSprite(bgi);
 		setBackgroundSprite(gs);
 	}

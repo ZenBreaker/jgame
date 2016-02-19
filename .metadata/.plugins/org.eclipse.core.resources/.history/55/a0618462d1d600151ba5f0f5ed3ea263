@@ -1,0 +1,11 @@
+package gamesrc;
+
+import jgame.GSprite;
+import jgame.ImageCache;
+
+public class MenuBackgroung extends GSprite {
+	public MenuBackgroung() {
+		super(ImageCache.getImage("thing3.jpg"));
+	}
+
+}

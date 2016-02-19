@@ -12,7 +12,7 @@ public class l1PlayArea extends GContainer {
 	public l1PlayArea(){
 		setSize(800, 600);
 		this.setBackgroundColor(Color.black);
-		BufferedImage bgi = ImageCache.forClass(TowerGame.class).get("imgres.jpg");
+		BufferedImage bgi = ImageCache.forClass(TowerGame.class).get("l1pa.jpg");
 		GSprite gs = new GSprite(bgi);
 		setBackgroundSprite(gs);
 	}

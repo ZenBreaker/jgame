@@ -20,6 +20,9 @@ public class TowerGame extends Game {
 		GRootContainer root = new GRootContainer (Color.BLUE);
 		setRootContainer(root);
 		
+		TGMenuView tgmv = new TGMenuView();
+		root.addView(Views.MAIN_MENU, tgmv);
+		
 		TGLevelOneView tgl1v = new TGLevelOneView();
 		root.addView(Views.LEVEL_ONE, tgl1v);
 	}
