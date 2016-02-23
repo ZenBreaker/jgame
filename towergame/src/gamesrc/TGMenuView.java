@@ -12,7 +12,7 @@ public class TGMenuView extends GContainer {
 	public TGMenuView() {
 		setSize(900, 700);
 		
-		MenuBackgroung mbg = new MenuBackgroung();
+		MenuBackground mbg = new MenuBackground();
 		addAtCenter(mbg);
 		
 		GSprite none_img = new GSprite(ImageCache.getImage("btnNone.jpg"));
@@ -26,9 +26,9 @@ public class TGMenuView extends GContainer {
 		
 		addAt(play_btn, 100, 100);
 		
-		//ButtonListener play_btn = new ButtonListener(){
+		ButtonListener play_btn = new ButtonListener(){
 			
-		//}
+		}
 	}
 
 }
